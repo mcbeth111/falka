@@ -18,7 +18,7 @@
           "name": "flow_main",
           "systemPrompt": " Keep conversation flow according to user's needs. \n",
           "nextFlow": "flow_main",
-          "apiFfunctions": [
+          "apiFunctions": [
             {
               "name": "handle_user_intent",
               "description": "Handle user intent as soon as it is recognized",
