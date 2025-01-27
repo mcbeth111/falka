@@ -22,8 +22,7 @@
             {
               "name": "handle_user_intent",
               "description": "Handle user intent as soon as it is recognized",
-              "parameters": "{\"type\": \"object\",\"properties\": {\"intent\": {\"type\": \"string\",\"description\": \"User intent\",\"enum\": [ \"navigate_to_balance_info\", \"navigate_to_services_info\", \"connect_with_human_consultant\", \"navigate_to_payment_info\" ]},\"required\": [ \"intent\" ]}"
-              }
+              "parameters": "{\"type\": \"object\",\"properties\": {\"intent\": {\"type\": \"string\",\"description\": \"User intent\",\"enum\": [ \"navigate_to_balance_info\", \"navigate_to_services_info\", \"connect_with_human_consultant\", \"navigate_to_payment_info\" ]},\"required\": [ \"intent\" ]}}"
             },
             {
               "name": "navigate_to_balance_info",
