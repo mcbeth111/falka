@@ -21,8 +21,7 @@
           "apiFunctions": [
             {
               "name": "handle_user_intent",
-              "description": "Handle user intent as soon as it is recognized",
-              "parameters": "{}"
+              "description": "Handle user intent as soon as it is recognized"
             },
             {
               "name": "navigate_to_balance_info",
