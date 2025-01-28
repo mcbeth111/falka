@@ -22,7 +22,7 @@
             {
               "name": "handle_user_intent",
               "description": "Handle user intent as soon as it is recognized",
-              "parameters": ""
+              "parameters": "{}"
             },
             {
               "name": "navigate_to_balance_info",
@@ -37,7 +37,7 @@
             {
               "name": "connect_with_human_consultant",
               "description": "Connect user with human consultant",
-              "parameters": ""
+              "parameters": "{}"
             },
             {
               "name": "navigate_to_payment_info",
