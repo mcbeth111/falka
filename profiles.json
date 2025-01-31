@@ -2,6 +2,7 @@
   "profiles": [
     {
       "profileName": "profile1",
+      "profileId": 0,
       "user": {
         "name": "John",
         "surname": "Doe"
