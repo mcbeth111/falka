@@ -1,0 +1,97 @@
+{
+  "profiles": [
+    {
+      "profileName": "profile1",
+      "user": {
+        "name": "John",
+        "surname": "Doe"
+      },
+      "data": [
+        {
+          "name": "handle_user_intent",
+          "description": "Handle user intent as soon as it is recognized",
+          "results": ""
+        },
+        {
+          "name": "navigate_to_balance_info",
+          "description": "Open form with user account balance",
+          "results": {
+            "balance": "45.67PLN",
+            "lastPaymentDate": "2024-10-01",
+            "lastPaymentAmount": "50.00PLN",
+            "dueDate": "2024-11-01"
+          }
+        },
+        {
+          "name": "navigate_to_services_info",
+          "description": "Open form with user services",
+          "results": {
+            "services": [
+              {
+                "serviceName": "Fiber Internet",
+                "status": "Active",
+                "dataRate": "100Gbit/s",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Mobile Internet",
+                "status": "Active",
+                "dataUsage": "5GB/10GB",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Voice Plan",
+                "status": "Active",
+                "minutesUsed": "200/300",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "SMS Plan",
+                "status": "Active",
+                "smsUsed": "50/100",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Roaming",
+                "status": "Inactive"
+              }
+            ]
+          }
+        },
+        {
+          "name": "connect_with_human_consultant",
+          "description": "Connect user with human consultant",
+          "results": ""
+        },
+        {
+          "name": "navigate_to_payment_info",
+          "description": "Open form with user payment info",
+          "results": {
+            "paymentHistory": [
+              {
+                "paymentDate": "2024-09-01",
+                "amount": "50.00PLN",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2024-08-01",
+                "amount": "50.00PLN",
+                "method": "Credit Card"
+              },
+              {
+                "paymentDate": "2024-07-01",
+                "amount": "50.00PLN",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2024-06-01",
+                "amount": "50.00PLN",
+                "method": "Wire Transfer"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
