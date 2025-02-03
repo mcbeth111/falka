@@ -10,12 +10,12 @@
       "data": [
         {
           "name": "handle_user_intent",
-          "description": "Handle user intent as soon as it is recognized",
+          "description": "nothing here",
           "results": ""
         },
         {
-          "name": "navigate_to_balance_info",
-          "description": "Open form with user account balance",
+          "name": "get_balance_info",
+          "description": "user account balance",
           "results": {
             "balance": "45.67PLN",
             "lastPaymentDate": "2024-10-01",
@@ -24,8 +24,8 @@
           }
         },
         {
-          "name": "navigate_to_services_info",
-          "description": "Open form with user services",
+          "name": "get_services_info",
+          "description": "user services",
           "results": {
             "services": [
               {
