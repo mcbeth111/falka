@@ -18,6 +18,7 @@
           "name": "flow_main",
           "systemPrompt": " Keep conversation flow according to user's needs. \n",
           "nextFlow": "flow_main",
+          "iterations": 10,
           "apiFunctions": [
             {
               "name": "handle_user_intent",
