@@ -26,12 +26,12 @@
             },
             {
               "name": "navigate_to_balance_info",
-              "description": "Open form with user account balance",
+              "description": "Retrieve user account balance",
               "parameters": "{}"
             },
             {
               "name": "navigate_to_services_info",
-              "description": "Open form with user services",
+              "description": "Retrieve user services info",
               "parameters": "{}"
             },
             {
