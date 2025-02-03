@@ -30,7 +30,7 @@
               "parameters": "{}"
             },
             {
-              "name": "navigate_to_services_info",
+              "name": "get_services_info",
               "description": "Retrieve user services info",
               "parameters": "{}"
             },
