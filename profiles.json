@@ -17,9 +17,9 @@
           "name": "get_balance_info",
           "description": "user account balance",
           "results": {
-            "balance": "45.67PLN",
+            "balance": "45.67 zł",
             "lastPaymentDate": "2024-10-01",
-            "lastPaymentAmount": "50.00PLN",
+            "lastPaymentAmount": "50.00 zł",
             "dueDate": "2024-11-01"
           }
         },
@@ -71,22 +71,22 @@
             "paymentHistory": [
               {
                 "paymentDate": "2024-09-01",
-                "amount": "50.00PLN",
+                "amount": "50.00 zł",
                 "method": "Wire Transfer"
               },
               {
                 "paymentDate": "2024-08-01",
-                "amount": "50.00PLN",
+                "amount": "50.00 zł",
                 "method": "Credit Card"
               },
               {
                 "paymentDate": "2024-07-01",
-                "amount": "50.00PLN",
+                "amount": "50.00 zł",
                 "method": "Wire Transfer"
               },
               {
                 "paymentDate": "2024-06-01",
-                "amount": "50.00PLN",
+                "amount": "50.00 zł",
                 "method": "Wire Transfer"
               }
             ]
@@ -101,7 +101,7 @@
               "planType": "Unlimited Data Plan",
               "startDate": "2023-10-01",
               "endDate": "2024-10-01",
-              "monthlyCost": 50.00,
+              "monthlyCost": "50.00 zł",
               "status": "Active"
             }
           }
