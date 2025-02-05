@@ -18,8 +18,6 @@
           "description": "user account balance",
           "results": {
             "balance": "45.67 zł",
-            "lastPaymentDate": "2024-10-01",
-            "lastPaymentAmount": "50.00 zł",
             "dueDate": "2024-11-01"
           }
         },
