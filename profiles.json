@@ -91,6 +91,20 @@
               }
             ]
           }
+        },
+        {
+          "name": "get_contract_info",
+          "description": "Get user contract details",
+          "results": {
+            "contract": {
+              "contractId": "67890",
+              "planType": "Unlimited Data Plan",
+              "startDate": "2023-10-01",
+              "endDate": "2024-10-01",
+              "monthlyCost": 50.00,
+              "status": "Active"
+            }
+          }
         }
       ]
     }
