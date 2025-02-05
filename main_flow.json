@@ -31,7 +31,7 @@
             },
             {
               "name": "get_services_info",
-              "description": "Retrieve user services info",
+              "description": "Retrieve user services info. Services management form in application was open, user may activate or deactivate services in this app form.",
               "parameters": "{}"
             },
             {
