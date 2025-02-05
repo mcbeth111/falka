@@ -25,7 +25,7 @@
         },
         {
           "name": "get_services_info",
-          "description": "user services",
+          "description": "Get user services info",
           "results": {
             "services": [
               {
