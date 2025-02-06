@@ -1,0 +1,72 @@
+{
+  "OpenAIEndpoint": "*",
+  "OpenAIKey": "*",
+  "DeploymentName": "*",
+  "AgentName": "Fiona",
+  "SpeechKey": "*",
+  "SpeechRegion": "*",
+  "TokenBudget": 100000,
+  "enabled": 1,
+  "SystemPromptText": "Load from system.md",
+  "UserPromptText": "Cześć ! Jak możesz mi pomóc?",
+  "flows": [
+    {
+      "flowName": "FALKA",
+      "firstMicroFlowName": "flow_main",
+      "microFlows": [
+        {
+          "name": "flow_main",
+          "systemPrompt": " Keep conversation flow according to user's needs. \n",
+          "nextFlow": "flow_main",
+          "iterations": 10,
+          "apiFunctions": [
+            {
+              "name": "handle_user_intent",
+              "description": "Handle user intent as soon as it is recognized"
+            },
+            {
+              "name": "get_balance_info",
+              "description": "Retrieve user account balance",
+              "parameters": "{}"
+            },
+            {
+              "name": "get_contract_info",
+              "description": "Retrieve user contract details",
+              "parameters": "{}"
+            },
+            {
+              "name": "get_services_info",
+              "description": "Get user services info like fiber, data, roaming and other telecom.. Services management form in application was open, user may activate or deactivate services in this app form only.",
+              "parameters": "{}"
+            },
+            {
+              "name": "connect_with_human_consultant",
+              "description": "Connect user with human consultant",
+              "parameters": "{}"
+            },
+            {
+              "name": "navigate_to_payment_info",
+              "description": "Open form with user payment info",
+              "parameters": "{}"
+            }
+          ]
+        },
+        {
+          "name": "flow_new",
+          "systemPrompt": " Let's start a new conversation. \n",
+          "nextFlow": "flow_main"
+        },
+        {
+          "name": "flow_exit",
+          "systemPrompt": "User has ended the conversation, has no more tasks for you or said goodbye.\n",
+          "nextFlow": ""
+        },
+        {
+          "name": "flow_wait",
+          "systemPrompt": " DO NOT say anything. \n",
+          "nextFlow": "flow_wait"
+        }
+      ]
+    }
+  ]
+}
