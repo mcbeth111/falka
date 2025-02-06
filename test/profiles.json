@@ -18,7 +18,7 @@
           "description": "user account balance",
           "results": {
             "balance": "38.00 zł",
-            "dueDate": "2025-03-03"
+            "dueDate": "2024-11-01"
           }
         },
         {
@@ -63,7 +63,7 @@
           "results": ""
         },
         {
-          "name": "navigate_to_payment_info",
+          "name": "get_payment_info",
           "description": "Open form with user payment info",
           "results": {
             "paymentHistory": [
