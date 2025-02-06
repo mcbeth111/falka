@@ -1,0 +1,110 @@
+{
+  "profiles": [
+    {
+      "profileName": "profile1",
+      "profileId": 0,
+      "user": {
+        "name": "John",
+        "surname": "Doe"
+      },
+      "data": [
+        {
+          "name": "handle_user_intent",
+          "description": "nothing here",
+          "results": ""
+        },
+        {
+          "name": "get_balance_info",
+          "description": "user account balance",
+          "results": {
+            "balance": "45.67 zł",
+            "dueDate": "2024-11-01"
+          }
+        },
+        {
+          "name": "get_services_info",
+          "description": "Get user services info",
+          "results": {
+            "services": [
+              {
+                "serviceName": "Fiber Internet",
+                "status": "Active",
+                "dataRate": "100Gbit/s",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Mobile Internet",
+                "status": "Active",
+                "dataUsage": "5GB/10GB",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Voice Plan",
+                "status": "Active",
+                "minutesUsed": "200/300",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "SMS Plan",
+                "status": "Active",
+                "smsUsed": "50/100",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Roaming",
+                "status": "Inactive"
+              }
+            ]
+          }
+        },
+        {
+          "name": "connect_with_human_consultant",
+          "description": "Connect user with human consultant",
+          "results": ""
+        },
+        {
+          "name": "navigate_to_payment_info",
+          "description": "Open form with user payment info",
+          "results": {
+            "paymentHistory": [
+              {
+                "paymentDate": "2024-09-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2024-08-01",
+                "amount": "50.00 zł",
+                "method": "Credit Card"
+              },
+              {
+                "paymentDate": "2024-07-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2024-06-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              }
+            ]
+          }
+        },
+        {
+          "name": "get_contract_info",
+          "description": "Get user contract details",
+          "results": {
+            "contract": {
+              "contractId": "67890",
+              "planType": "Unlimited Data Plan",
+              "startDate": "2023-10-01",
+              "endDate": "2024-10-01",
+              "monthlyCost": "50.00 zł",
+              "status": "Active"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
