@@ -17,8 +17,8 @@
           "name": "get_balance_info",
           "description": "user account balance",
           "results": {
-            "balance": "45.67 zł",
-            "dueDate": "2024-11-01"
+            "balance": "38.00 zł",
+            "dueDate": "2025-03-03"
           }
         },
         {
