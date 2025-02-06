@@ -63,7 +63,7 @@
           "results": ""
         },
         {
-          "name": "navigate_to_payment_info",
+          "name": "get_payment_info",
           "description": "Open form with user payment info",
           "results": {
             "paymentHistory": [
