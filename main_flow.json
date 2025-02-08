@@ -68,7 +68,7 @@
         },
         {
           "name": "flow_exit",
-          "systemPrompt": "User has ended the conversation, has no more tasks for you or said goodbye.\n",
+          "systemPrompt": "User has no more tasks for you or said goodbye or has ended the conversation or similar user intent.\n",
           "nextFlow": ""
         },
         {
