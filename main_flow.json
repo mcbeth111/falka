@@ -56,7 +56,7 @@
             },
             {
               "name": "set_chat_exit",
-              "description": "End the conversation, user has no more requests. Always call this tool when you say goodbye.",
+              "description": "Ends the conversation when user say something like get lost, I have nothing for you, that's all, goodbye, farewell, thank you, that's all or terminate. Always call this tool when you say goodbye.",
               "parameters": "{}"
             }
           ]
