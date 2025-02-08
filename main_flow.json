@@ -48,6 +48,11 @@
               "name": "get_payment_info",
               "description": "Open form with user payment info",
               "parameters": "{}"
+            },
+            {
+              "name": "set_chat_exit",
+              "description": "End the conversation, user has no more requests.",
+              "parameters": "{}"
             }
           ]
         },
