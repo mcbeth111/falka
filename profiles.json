@@ -15,10 +15,10 @@
         },
         {
           "name": "get_balance_info",
-          "description": "user account balance",
+          "description": ". This is user current account balance.",
           "results": {
             "balance": "45.67 zł",
-            "dueDate": "2024-11-01"
+            "dueDate": "2025-03-01"
           }
         },
         {
@@ -78,26 +78,26 @@
         },
         {
           "name": "get_payment_info",
-          "description": "Open form with user payment info",
+          "description": ". This is a list of user's historical payments.",
           "results": {
             "paymentHistory": [
               {
-                "paymentDate": "2024-09-01",
+                "paymentDate": "2025-02-01",
                 "amount": "50.00 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2024-08-01",
+                "paymentDate": "2025-01-02",
                 "amount": "50.00 zł",
                 "method": "Credit Card"
               },
               {
-                "paymentDate": "2024-07-01",
+                "paymentDate": "2024-12-01",
                 "amount": "50.00 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2024-06-01",
+                "paymentDate": "2024-01-01",
                 "amount": "50.00 zł",
                 "method": "Wire Transfer"
               }
