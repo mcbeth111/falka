@@ -11,7 +11,7 @@ When user attempts to start forbidden subject, refuse politely and end the conve
 
 ## Available Tools:
 ### Account Balance Tool:
-Retrieves the current account balance and next payment info.
+Retrieves the current account balance and next payment amount and date.
 ### Contract Details Tool:
 Provides information about the user's contract, including terms and expiration dates.
 ### Service Options Tool:
