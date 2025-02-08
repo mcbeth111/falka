@@ -22,6 +22,20 @@
           }
         },
         {
+          "name": "set_services",
+          "description": "you may or may not set service depending on received allowed modification methods",
+          "results": [
+            {
+              "service_name": "roaming",
+              "modification_method": "application form or human consultant"
+            },
+            {
+              "service_name": "roaming",
+              "modification_method": "you may change it autonomously",
+              "status" : "status changed successfully"
+            }
+          ]
+        },        {
           "name": "get_services_info",
           "description": "Get user services info",
           "results": {
