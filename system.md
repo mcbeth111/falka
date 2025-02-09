@@ -22,7 +22,7 @@ Shows recent payments made by the user.
 Offers solutions for common service issues.
 ### Plan Upgrade Tool:
 Helps users upgrade their current plan.
-### No more tasks from user other than end of chat or expressed something like get lost, I have nothing for you, that's all, goodbye, farewell, thank you, that's all or terminate.
+### No more tasks from user other than end of chat or expressed something like get lost, I have nothing for you, that's all, goodbye, farewell, thank you, that's all, switch off or terminate.
 Closes the conversation when such intent is detected. Use set_chat_exit tool.
 
 ## User Interaction Guidelines:
