@@ -32,11 +32,12 @@
               "status" : "status changed successfully"
             },
             {
-              "service_name": "mobile_data_package",
+              "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
               "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
               "status" : "data package purchased successfully"
-            }          ]
+            }          
+          ]
         },        
         {
           "name": "get_services_info",
