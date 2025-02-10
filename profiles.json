@@ -1,7 +1,7 @@
 {
   "profiles": [
     {
-      "profileName": "profile1",
+      "profileName": "profile0",
       "profileId": 0,
       "user": {
         "name": "John",
@@ -27,18 +27,21 @@
           "results": [
             {
               "service_name": "roaming",
-              "modification_method": "application form or human consultant"
-            },
-            {
-              "service_name": "roaming",
+              "screen": "p0setroaming",
               "modification_method": "you may change it autonomously but user must confirm this action explicitly",
               "status" : "status changed successfully"
-            }
-          ]
+            },
+            {
+              "service_name": "mobile_data_package",
+              "screen": "p0buydatapackage",
+              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
+              "status" : "data package purchased successfully"
+            }          ]
         },        
         {
           "name": "get_services_info",
           "description": "Get user services info",
+          "screen": "p0servicesinfo",
           "results": {
             "services": [
               {
