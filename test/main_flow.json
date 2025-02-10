@@ -26,12 +26,17 @@
             },
             {
               "name": "get_balance_info",
-              "description": "Retrieve user account balance",
+              "description": "Retrieve user account balance, next payment amount and due date",
               "parameters": "{}"
             },
             {
               "name": "get_contract_info",
               "description": "Retrieve user contract details",
+              "parameters": "{}"
+            },
+            {
+              "name": "set_services",
+              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom.. Services management form in application was open, user may activate or deactivate services in this app form only.",
               "parameters": "{}"
             },
             {
@@ -48,6 +53,16 @@
               "name": "get_payment_info",
               "description": "Open form with user payment info",
               "parameters": "{}"
+            },
+            {
+              "name": "set_chat_exit",
+              "description": "Ends the conversation when user say something like get lost, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
+              "parameters": "{}"
+            },
+            {
+              "name": "end_chat",
+              "description": "Ends the conversation when user say something like: go away, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
+              "parameters": "{}"
             }
           ]
         },
@@ -58,7 +73,7 @@
         },
         {
           "name": "flow_exit",
-          "systemPrompt": "User has ended the conversation, has no more tasks for you or said goodbye.\n",
+          "systemPrompt": "User has no more tasks for you or said goodbye, that's all or has ended the conversation or similar user intent.\n",
           "nextFlow": ""
         },
         {
