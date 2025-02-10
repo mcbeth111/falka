@@ -125,6 +125,258 @@
           }
         }
       ]
+    },
+    {
+      "profileName": "profile1",
+      "profileId": 1,
+      "user": {
+        "name": "John",
+        "surname": "Doe"
+      },
+      "data": [
+        {
+          "name": "handle_user_intent",
+          "description": "nothing here",
+          "results": ""
+        },
+        {
+          "name": "get_balance_info",
+          "description": ". This is user current account balance.",
+          "screen": "p0getbalance",
+          "results": {
+            "balance": "45.67 zł",
+            "dueDate": "2025-03-01"
+          }
+        },
+        {
+          "name": "set_services",
+          "description": "you may or may not set service depending on received allowed modification methods",
+          "results": [
+            {
+              "service_name": "roaming",
+              "screen": "p0setroaming",
+              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "status" : "status changed successfully"
+            },
+            {
+              "service_name": "buy_data_package",
+              "screen": "p0buydatapackage",
+              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
+              "status" : "data package purchased successfully"
+            }          
+          ]
+        },        
+        {
+          "name": "get_services_info",
+          "description": "Get user services info",
+          "screen": "p0servicesinfo",
+          "results": {
+            "services": [
+              {
+                "serviceName": "Fiber Internet",
+                "status": "Active",
+                "dataRate": "100Gbit/s",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Mobile Internet",
+                "status": "Active",
+                "dataUsage": "5GB/10GB",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Voice Plan",
+                "status": "Active",
+                "minutesUsed": "200/300",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "SMS Plan",
+                "status": "Active",
+                "smsUsed": "50/100",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Roaming",
+                "status": "Inactive"
+              }
+            ]
+          }
+        },
+        {
+          "name": "connect_with_human_consultant",
+          "description": "Connect user with human consultant",
+          "results": ""
+        },
+        {
+          "name": "get_payment_info",
+          "description": ". This is a list of user's historical payments.",
+          "results": {
+            "paymentHistory": [
+              {
+                "paymentDate": "2025-02-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2025-01-02",
+                "amount": "50.00 zł",
+                "method": "Credit Card"
+              },
+              {
+                "paymentDate": "2024-12-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2024-01-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              }
+            ]
+          }
+        },
+        {
+          "name": "get_contract_info",
+          "description": "Get user contract details",
+          "results": {
+            "contract": {
+              "contractId": "67890",
+              "planType": "LovE Plan",
+              "startDate": "2023-10-01",
+              "endDate": "2024-10-01",
+              "monthlyCost": "50.00 zł",
+              "status": "Active"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "profileName": "profile2",
+      "profileId": 2,
+      "user": {
+        "name": "John",
+        "surname": "Doe"
+      },
+      "data": [
+        {
+          "name": "handle_user_intent",
+          "description": "nothing here",
+          "results": ""
+        },
+        {
+          "name": "get_balance_info",
+          "description": ". This is user current account balance.",
+          "screen": "p0getbalance",
+          "results": {
+            "balance": "45.67 zł",
+            "dueDate": "2025-03-01"
+          }
+        },
+        {
+          "name": "set_services",
+          "description": "you may or may not set service depending on received allowed modification methods",
+          "results": [
+            {
+              "service_name": "roaming",
+              "screen": "p0setroaming",
+              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "status" : "status changed successfully"
+            },
+            {
+              "service_name": "buy_data_package",
+              "screen": "p0buydatapackage",
+              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
+              "status" : "data package purchased successfully"
+            }          
+          ]
+        },        
+        {
+          "name": "get_services_info",
+          "description": "Get user services info",
+          "screen": "p0servicesinfo",
+          "results": {
+            "services": [
+              {
+                "serviceName": "Fiber Internet",
+                "status": "Active",
+                "dataRate": "100Gbit/s",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Mobile Internet",
+                "status": "Active",
+                "dataUsage": "5GB/10GB",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Voice Plan",
+                "status": "Active",
+                "minutesUsed": "200/300",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "SMS Plan",
+                "status": "Active",
+                "smsUsed": "50/100",
+                "renewalDate": "2025-11-01"
+              },
+              {
+                "serviceName": "Roaming",
+                "status": "Inactive"
+              }
+            ]
+          }
+        },
+        {
+          "name": "connect_with_human_consultant",
+          "description": "Connect user with human consultant",
+          "results": ""
+        },
+        {
+          "name": "get_payment_info",
+          "description": ". This is a list of user's historical payments.",
+          "results": {
+            "paymentHistory": [
+              {
+                "paymentDate": "2025-02-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2025-01-02",
+                "amount": "50.00 zł",
+                "method": "Credit Card"
+              },
+              {
+                "paymentDate": "2024-12-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              },
+              {
+                "paymentDate": "2024-01-01",
+                "amount": "50.00 zł",
+                "method": "Wire Transfer"
+              }
+            ]
+          }
+        },
+        {
+          "name": "get_contract_info",
+          "description": "Get user contract details",
+          "results": {
+            "contract": {
+              "contractId": "67890",
+              "planType": "LovE Plan",
+              "startDate": "2023-10-01",
+              "endDate": "2024-10-01",
+              "monthlyCost": "50.00 zł",
+              "status": "Active"
+            }
+          }
+        }
+      ]
     }
   ]
 }
