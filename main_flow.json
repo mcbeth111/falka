@@ -58,6 +58,11 @@
               "name": "set_chat_exit",
               "description": "Ends the conversation when user say something like get lost, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
               "parameters": "{}"
+            },
+            {
+              "name": "end_chat",
+              "description": "Ends the conversation when user say something like: go away, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
+              "parameters": "{}"
             }
           ]
         },
