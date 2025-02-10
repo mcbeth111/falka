@@ -35,7 +35,8 @@
               "status" : "status changed successfully"
             }
           ]
-        },        {
+        },        
+        {
           "name": "get_services_info",
           "description": "Get user services info",
           "results": {
@@ -110,7 +111,7 @@
           "results": {
             "contract": {
               "contractId": "67890",
-              "planType": "Unlimited Data Plan",
+              "planType": "LovE Plan",
               "startDate": "2023-10-01",
               "endDate": "2024-10-01",
               "monthlyCost": "50.00 zł",
