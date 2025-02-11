@@ -36,7 +36,7 @@
             },
             {
               "name": "set_services",
-              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom.",
+              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom. You may change it after user had confirmed this action explicitly.",
               "parameters": "{}"
             },
             {
