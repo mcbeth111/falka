@@ -36,7 +36,7 @@
             },
             {
               "name": "set_services",
-              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom.. Services management form in application was open, user may activate or deactivate services in this app form only.",
+              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom.",
               "parameters": "{}"
             },
             {
