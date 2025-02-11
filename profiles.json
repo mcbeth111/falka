@@ -32,7 +32,7 @@
                 "screenWhenOff": "roamingwyl",
                 "screenWhenOn": "roamingwl2025",
                 "activation_cost": "free",
-                "modification_method": "you may change it autonomously but user must confirm this action explicitly.",
+                "modification_method": "",
                 "status" : "status changed successfully"
               },
               {
