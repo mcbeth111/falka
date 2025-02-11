@@ -29,7 +29,8 @@
             "services": [
               {
                 "service_name": "roaming",
-                "screen": "roamingwl2025",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
                 "activation_cost": "free",
                 "modification_method": "you may change it autonomously but user must confirm this action explicitly.",
                 "status" : "status changed successfully"
