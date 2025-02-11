@@ -46,7 +46,6 @@
         {
           "name": "get_services_info",
           "description": "Get user services info",
-          "screen": "roamingwyl",
           "results": {
             "services": [
               {
@@ -75,6 +74,7 @@
               },
               {
                 "serviceName": "Roaming",
+                "screen": "roamingwyl",
                 "status": "Inactive"
               }
             ]
