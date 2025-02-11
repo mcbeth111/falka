@@ -28,7 +28,7 @@
           "results": [
             {
               "service_name": "roaming",
-              "screen": "p0setroaming",
+              "screen": "roamingwl2025",
               "modification_method": "you may change it autonomously but user must confirm this action explicitly.",
               "status" : "status changed successfully"
             },
@@ -43,7 +43,7 @@
         {
           "name": "get_services_info",
           "description": "Get user services info",
-          "screen": "p0servicesinfo",
+          "screen": "roamingwyl",
           "results": {
             "services": [
               {
