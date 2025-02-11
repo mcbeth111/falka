@@ -74,7 +74,8 @@
               },
               {
                 "serviceName": "roaming",
-                "screen": "roamingwyl",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
                 "status": "Inactive"
               }
             ]
