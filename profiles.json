@@ -29,13 +29,13 @@
             {
               "service_name": "roaming",
               "screen": "p0setroaming",
-              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "modification_method": "you may change it autonomously but user must confirm this action explicitly.",
               "status" : "status changed successfully"
             },
             {
               "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
+              "modification_method": "you may perform it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
               "status" : "data package purchased successfully"
             }          
           ]
@@ -155,13 +155,13 @@
             {
               "service_name": "roaming",
               "screen": "p0setroaming",
-              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "modification_method": "you may change it autonomously but user must confirm this action explicitly",
               "status" : "status changed successfully"
             },
             {
               "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
+              "modification_method": "you may perform it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
               "status" : "data package purchased successfully"
             }          
           ]
@@ -281,13 +281,13 @@
             {
               "service_name": "roaming",
               "screen": "p0setroaming",
-              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "modification_method": "you may change it autonomously but user must confirm this action explicitly",
               "status" : "status changed successfully"
             },
             {
               "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
+              "modification_method": "you may perform it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
               "status" : "data package purchased successfully"
             }          
           ]
