@@ -35,7 +35,7 @@
             {
               "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "modification_method": "you may open app form but user must select package size and confirm purchase action in app form explicitly; user must select packet size: 1GB, 5GB or 10GB.",
               "status" : "data package purchased successfully"
             }          
           ]
@@ -161,7 +161,7 @@
             {
               "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "modification_method": "you may open app form but user must select package size and confirm purchase action in app form explicitly; user must select packet size: 1GB, 5GB or 10GB.",
               "status" : "data package purchased successfully"
             }          
           ]
@@ -287,7 +287,7 @@
             {
               "service_name": "buy_data_package",
               "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
+              "modification_method": "you may open app form but user must select package size and confirm purchase action in app form explicitly; user must select packet size: 1GB, 5GB or 10GB.",
               "status" : "data package purchased successfully"
             }          
           ]
