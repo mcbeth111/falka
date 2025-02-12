@@ -133,7 +133,7 @@
             "contract": {
               "contractId": "67890",
               "serviceName": "contract",
-              "planType": "'Love' Plan",
+              "planType": "L.o.v.e Plan",
               "startDate": "2016-10-01",
               "endDate": "N/A",
               "monthlyCost": "54.98 zł",
