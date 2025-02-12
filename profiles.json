@@ -121,7 +121,8 @@
           "results": {
             "contract": {
               "contractId": "67890",
-              "serviceName": "'Love' Plan",
+              "serviceName": "contract",
+              "planType": "'Love' Plan",
               "startDate": "2023-10-01",
               "endDate": "2024-10-01",
               "monthlyCost": "50.00 zł",
