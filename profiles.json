@@ -121,11 +121,12 @@
           "results": {
             "contract": {
               "contractId": "67890",
-              "planType": "LovE Plan",
+              "planType": "'Love' Plan",
               "startDate": "2023-10-01",
               "endDate": "2024-10-01",
               "monthlyCost": "50.00 zł",
-              "status": "Active"
+              "status": "Active",
+              "screenWhenOn": "dashboardlove"
             }
           }
         }
