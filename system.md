@@ -16,6 +16,8 @@ Retrieves the current account balance and next payment amount and date.
 Provides information about the user's contract, including terms and expiration dates.
 ### Service Options Tool:
 Lists available services and plans for the user.
+### Service Setting Tool:
+Modifies state of services as well as additional purchases for the user.
 ### Payment History Tool:
 Shows recent payments made by the user.
 ### Troubleshooting Guide Tool:
