@@ -58,23 +58,29 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "9GB/10GB",
-                "renewalDate": "2025-11-01"
+                "dataUsage": "6.25GB/10GB",
+                "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "Voice Plan",
                 "status": "Active",
-                "minutesUsed": "200/300",
-                "renewalDate": "2025-11-01"
+                "minutesUsed": "unlimited",
+                "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "SMS Plan",
                 "status": "Active",
-                "smsUsed": "50/100",
-                "renewalDate": "2025-11-01"
+                "smsUsed": "unlimited",
+                "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
+                "status": "Active"
+              },
+               {
+                "serviceName": "'cybertarcza'",
                 "screenWhenOff": "roamingwyl",
                 "screenWhenOn": "roamingwl2025",
                 "status": "Inactive"
@@ -93,23 +99,23 @@
           "results": {
             "paymentHistory": [
               {
-                "paymentDate": "2025-02-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-02-28",
+                "amount": "54,98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2025-01-02",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-01-28",
+                "amount": "54,98 zł",
                 "method": "Credit Card"
               },
               {
-                "paymentDate": "2024-12-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-12-28",
+                "amount": "54.98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2024-01-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-01-28",
+                "amount": "54.98 zł",
                 "method": "Wire Transfer"
               }
             ]
@@ -123,9 +129,9 @@
               "contractId": "67890",
               "serviceName": "contract",
               "planType": "'Love' Plan",
-              "startDate": "2023-10-01",
-              "endDate": "2024-10-01",
-              "monthlyCost": "50.00 zł",
+              "startDate": "2016-10-01",
+              "endDate": "N/A",
+              "monthlyCost": "54.98 zł",
               "status": "Active",
               "screenWhenOn": "dashboardlove"
             }
