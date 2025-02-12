@@ -14,12 +14,17 @@
           "results": ""
         },
         {
-          "name": "get_balance_info",
-          "description": ". This is user current account balance.",
-          "screen": "p0getbalance",
+          "name": "main",
+          "description": "nothing here",
+          "screen": "dashboardlove"
+        },
+        {
+          "name": "get_invoice_due_info",
+          "description": ". This is user current invoice to be payed.",
+          "screen": "platnoscilove",
           "results": {
-            "balance": "45.67 zł",
-            "dueDate": "2025-03-01"
+            "amount": "54.98 zł",
+            "dueDate": "2025-02-28"
           }
         },
         {
