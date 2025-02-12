@@ -85,9 +85,9 @@
                 "status": "Active"
               },
                {
-                "serviceName": "'cybertarcza'",
-                "screenWhenOff": "roamingwyl",
-                "screenWhenOn": "roamingwl2025",
+                "serviceName": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
                 "status": "Inactive"
               }
             ]
