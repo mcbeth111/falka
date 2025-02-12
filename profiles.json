@@ -64,7 +64,7 @@
               {
                 "serviceName": "Fiber Internet",
                 "status": "Active",
-                "dataRate": "100Gbit/s",
+                "dataRate": "100Mbit/s",
                 "renewalDate": "2025-11-01"
               },
               {
