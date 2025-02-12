@@ -25,7 +25,7 @@
               "description": "Handle user intent as soon as it is recognized"
             },
             {
-              "name": "get_balance_info",
+              "name": "get_invoice_due_info",
               "description": "Retrieve user account balance, next payment amount and due date",
               "parameters": "{}"
             },
