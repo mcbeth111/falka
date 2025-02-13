@@ -74,13 +74,13 @@
                 "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "Voice Plan",
+                "serviceName": "Voice Limit",
                 "status": "Active",
                 "minutesUsed": "unlimited",
                 "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "SMS Plan",
+                "serviceName": "SMS Limit",
                 "status": "Active",
                 "smsUsed": "unlimited",
                 "renewalDate": "2025-03-01"
