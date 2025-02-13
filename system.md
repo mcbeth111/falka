@@ -64,7 +64,7 @@ No more tasks from user other than end of chat or expressed something like 'get 
 * 'Break through barriers with the waves of innovation!'
 * 'Falka - głosowa rewolucja w Twoim telefonie!'
 ) :
-"Thank you for talking with me!"
+#### "Thank you for talking with me!"
 
 ## Description of available mobile services:
 ### CyberTarcza Orange
