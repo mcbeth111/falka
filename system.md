@@ -73,3 +73,8 @@ CyberTarcza oferuje:
 5. Indywidualne ustawienia ochrony dla każdego urządzenia.
 6. Dostosowanie ochrony do zagrożeń specyficznych dla Polski oraz korzystanie z globalnych doświadczeń w walce z cyberatakami.
 Rezygnacja z usługi jest możliwa w dowolnym momencie poprzez Mój Orange lub wysyłając SMS o treści STOP OCHRONA pod numer 80808. Usługa nie spowalnia urządzeń ani nie wpływa na zużycie baterii.
+### Data packages pricing:
+Cennik pakietów danych
+- 1 GB za 3,00 zł
+- 5 GB za 10,00 zł
+- 10 GB za 15,00 zł
