@@ -38,6 +38,12 @@
           }
         },
         {
+          "name": "get_account_info",
+          "description": ". This is a page with account number for payment.",
+          "screen": "danedoprzelewu",
+          "results": {}
+        },        
+        {
           "name": "set_services",
           "description": "you may or may not set service depending on received allowed modification methods",
           "results": {
