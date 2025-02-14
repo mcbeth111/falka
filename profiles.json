@@ -29,7 +29,7 @@
         },
         {
           "name": "perform_invoice_payment",
-          "description": ". The users payment may be placed via this page.",
+          "description": ". The invoice payment may be placed via this page.",
           "screen": "podsumowanielove",
           "results": {
             "amount": "54.98 zł",
