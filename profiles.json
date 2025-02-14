@@ -16,7 +16,8 @@
         {
           "name": "main",
           "description": "nothing here",
-          "screen": "dashboardlove"
+          "screen": "dashboardlove",
+          "results": {}
         },
         {
           "name": "get_invoice_due_info",
@@ -34,7 +35,8 @@
           "results": {
             "amount": "54.98 zł",
             "dueDate": "2025-02-28"
-          },
+          }
+        },
         {
           "name": "set_services",
           "description": "you may or may not set service depending on received allowed modification methods",
