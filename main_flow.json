@@ -45,8 +45,8 @@
               "parameters": "{}"
             },
             {
-              "name": "connect_with_human_consultant",
-              "description": "Connect user with human consultant",
+              "name": "perform_invoice_payment",
+              "description": "Open form to place invoice payment order",
               "parameters": "{}"
             },
             {
