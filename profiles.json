@@ -135,12 +135,12 @@
         },
         {
           "name": "get_contract_info",
-          "description": "Get user contract details",
+          "description": "Get user contract details, keep planType value in English",
           "results": {
             "contract": {
               "contractId": "67890",
               "serviceName": "contract",
-              "planType": "L-o-v-e Plan",
+              "planType": "Plan 'Love'",
               "startDate": "2016-10-01",
               "endDate": "N/A",
               "monthlyCost": "54.98 zł",
