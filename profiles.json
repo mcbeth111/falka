@@ -152,7 +152,7 @@
         {
           "name": "get_contract_info",
           "description": "Get user contract details, keep planType value in English",
-          "screen": "ulszczegolylove",
+          "screen": "uslszczegolylove",
           "results": {
             "contract": {
               "contractId": "67890",
