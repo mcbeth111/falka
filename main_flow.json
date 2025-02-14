@@ -55,6 +55,10 @@
               "parameters": "{}"
             },
             {
+              "name": "get_account_info",
+              "description": "Open form with payment account info",
+              "parameters": "{}"
+            },            {
               "name": "set_chat_exit",
               "description": "Ends the conversation when user say something like get lost, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
               "parameters": "{}"
