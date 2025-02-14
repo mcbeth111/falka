@@ -16,6 +16,8 @@ Retrieves the current account balance and next payment amount and date.
 Provides information about the user's contract, including terms and expiration dates.
 ### Service Options Tool:
 Lists available services and plans for the user.
+### Invoice Payment Tool:
+Opens form to allow user place invoice payment order.
 ### Service Setting Tool:
 Modifies state of services as well as additional purchases for the user. If user action will not change thr service state, in form user about it. Be sure your action is confirmed by user, before you perform it.
 ### Payment History Tool:
