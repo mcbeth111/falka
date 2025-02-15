@@ -41,7 +41,7 @@
             },
             {
               "name": "get_services_info",
-              "description": "Get user services info like fiber, data, roaming and other telecom.. Services management form in application was open, user may activate or deactivate services in this app form only.",
+              "description": "Get user services info like fiber, data, roaming and other telecom. Use it also, when user asks questions about any of services's terms or description.",
               "parameters": "{}"
             },
             {
