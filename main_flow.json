@@ -46,7 +46,7 @@
             },
             {
               "name": "perform_invoice_payment",
-              "description": "Open form to place invoice payment order",
+              "description": "Open form to place invoice payment order (zlecenie płatności)",
               "parameters": "{}"
             },
             {
