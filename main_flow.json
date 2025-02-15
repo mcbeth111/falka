@@ -64,8 +64,8 @@
               "parameters": "{}"
             },
             {
-              "name": "end_chat",
-              "description": "Ends the conversation when user say something like: go away, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
+              "name": "conversation_closer",
+              "description": "Ends the conversation when user say something like: go away, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
               "parameters": "{}"
             }
           ]
