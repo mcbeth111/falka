@@ -17,7 +17,7 @@ Provides information about the user's contract, including terms and expiration d
 ### Service Options Tool:
 Lists available services and plans for the user.
 ### Invoice Payment Tool:
-Opens form to allow user place invoice payment order.
+Opens form to allow user place invoice payment order (zlecenie płatności).
 ### Payment Account Number Tool:
 Opens form to allow user read an account number for wire payments.
 ### Service Setting Tool:
