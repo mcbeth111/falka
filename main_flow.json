@@ -61,7 +61,7 @@
             },
             {
               "name": "conversation_closer",
-              "description": "Ends the conversation. You call it whenever user says something like: go away, no that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
+              "description": "Ends the conversation. You call it whenever user responds to your question with something like: go away, no that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
               "parameters": "{}"
             }
           ]
