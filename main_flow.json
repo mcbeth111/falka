@@ -58,10 +58,6 @@
               "name": "get_account_info",
               "description": "Open form with payment account info",
               "parameters": "{}"
-            },            {
-              "name": "set_chat_exit",
-              "description": "Ends the conversation when user say something like get lost, I have nothing for you, that's all, goodbye, farewell, no thank you, that's all or terminate. Always call this tool when you say goodbye.",
-              "parameters": "{}"
             },
             {
               "name": "conversation_closer",
@@ -69,21 +65,6 @@
               "parameters": "{}"
             }
           ]
-        },
-        {
-          "name": "flow_new",
-          "systemPrompt": " Let's start a new conversation. \n",
-          "nextFlow": "flow_main"
-        },
-        {
-          "name": "flow_exit",
-          "systemPrompt": "User has no more tasks for you or said goodbye, that's all or has ended the conversation or similar user intent.\n",
-          "nextFlow": ""
-        },
-        {
-          "name": "flow_wait",
-          "systemPrompt": " DO NOT say anything. \n",
-          "nextFlow": "flow_wait"
         }
       ]
     }
