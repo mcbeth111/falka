@@ -43,7 +43,7 @@ User wants to end conversation or expressed something like 'get lost', 'I have n
 "What is my contract?" (contract details)
 "Change my plan." (service changes)
 "What is 'cybertarcza'?" (service info)
-Call get_services_info tool### If you don’t understand, say:
+### If you don’t understand, say:
 "I didn’t hear that. Can you please say it again or try saying, 'Check my balance'?"
 
 ### When user has no more tasks or wants to end the conversation:
