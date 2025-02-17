@@ -1,5 +1,5 @@
 {
-  "profiles": [
+"profiles": [
     {
       "profileName": "profile0",
       "profileId": 0,
@@ -14,64 +14,109 @@
           "results": ""
         },
         {
-          "name": "get_balance_info",
-          "description": ". This is user current account balance.",
-          "screen": "p0getbalance",
+          "name": "conversation_closer",
+          "description": "conversation was ended",
+          "screen": "",
+          "results": {}
+        },
+        {
+          "name": "main",
+          "description": "nothing here",
+          "screen": "dashboardlove",
+          "results": {}
+        },
+        {
+          "name": "get_invoice_due_info",
+          "description": ". This is user current invoice to be payed.",
+          "screen": "platnoscilove",
           "results": {
-            "balance": "45.67 zł",
-            "dueDate": "2025-03-01"
+            "amount": "54.98 zł",
+            "dueDate": "2025-02-28"
           }
         },
         {
+          "name": "perform_invoice_payment",
+          "description": ". The invoice payment may be placed via this page.",
+          "screen": "podsumowanielove",
+          "results": {
+            "amount": "54.98 zł",
+            "dueDate": "2025-02-28"
+          }
+        },
+        {
+          "name": "get_account_info",
+          "description": ". This is a page with account number for payment.",
+          "screen": "danedoprzelewu",
+          "results": {}
+        },        
+        {
           "name": "set_services",
           "description": "you may or may not set service depending on received allowed modification methods",
-          "results": [
-            {
-              "service_name": "roaming",
-              "screen": "p0setroaming",
-              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
-              "status" : "status changed successfully"
-            },
-            {
-              "service_name": "buy_data_package",
-              "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
-              "status" : "data package purchased successfully"
-            }          
-          ]
+          "results": {
+            "services": [
+              {
+                "service_name": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2016",
+                "activation_cost": "free",
+                "modification_method": "",
+                "status" : "status changed successfully"
+              },
+              {
+                "service_name": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
+                "activation_cost": "12 zł",
+                "modification_method": "you have opened app form but user must confirm purchase action in app form explicitly",
+                "status" : "status changed successfully"
+              },              {
+                "service_name": "buy_data_package",
+                "screen": "p0buydatapackage",
+                "modification_method": "you have opened app form but user must purchase action in this app form explicitly",
+                "status" : "data package selection form was opened successfully"
+              }          
+            ]
+          }
         },        
         {
           "name": "get_services_info",
           "description": "Get user services info",
-          "screen": "p0servicesinfo",
           "results": {
             "services": [
               {
                 "serviceName": "Fiber Internet",
                 "status": "Active",
-                "dataRate": "100Gbit/s",
-                "renewalDate": "2025-11-01"
+                "dataRate": "100Mbit/s",
+                "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "5GB/10GB",
-                "renewalDate": "2025-11-01"
+                "dataUsage": "6.25GB/10GB",
+                "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "Voice Plan",
+                "serviceName": "Voice Limit",
                 "status": "Active",
-                "minutesUsed": "200/300",
-                "renewalDate": "2025-11-01"
+                "minutesUsed": "unlimited",
+                "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "SMS Plan",
+                "serviceName": "SMS Limit",
                 "status": "Active",
-                "smsUsed": "50/100",
-                "renewalDate": "2025-11-01"
+                "smsUsed": "unlimited",
+                "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "Roaming",
+                "serviceName": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2016",
+                "status": "Active"
+              },
+               {
+                "serviceName": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
                 "status": "Inactive"
               }
             ]
@@ -88,23 +133,23 @@
           "results": {
             "paymentHistory": [
               {
-                "paymentDate": "2025-02-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-02-28",
+                "amount": "54,98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2025-01-02",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-01-28",
+                "amount": "54,98 zł",
                 "method": "Credit Card"
               },
               {
-                "paymentDate": "2024-12-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-12-28",
+                "amount": "54.98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2024-01-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-01-28",
+                "amount": "54.98 zł",
                 "method": "Wire Transfer"
               }
             ]
@@ -112,15 +157,18 @@
         },
         {
           "name": "get_contract_info",
-          "description": "Get user contract details",
+          "description": "Get user contract details, keep planType value in English",
+          "screen": "uslszczegolylove",
           "results": {
             "contract": {
               "contractId": "67890",
-              "planType": "LovE Plan",
-              "startDate": "2023-10-01",
-              "endDate": "2024-10-01",
-              "monthlyCost": "50.00 zł",
-              "status": "Active"
+              "serviceName": "contract",
+              "planType": "Plan 'Love'",
+              "startDate": "2016-10-01",
+              "endDate": "N/A",
+              "monthlyCost": "54.98 zł",
+              "status": "Active",
+              "screenWhenOn": "uslszczegolylove"
             }
           }
         }
@@ -140,64 +188,103 @@
           "results": ""
         },
         {
-          "name": "get_balance_info",
-          "description": ". This is user current account balance.",
-          "screen": "p0getbalance",
+          "name": "conversation_closer",
+          "description": "conversation was ended",
+          "screen": "",
+          "results": {}
+        },
+        {
+          "name": "main",
+          "description": "nothing here",
+          "screen": "dashboardoplmalogb",
+          "results": {}
+        },
+        {
+          "name": "get_invoice_due_info",
+          "description": ". This is user current invoice to be payed.",
+          "screen": "wszystkooplacone",
           "results": {
-            "balance": "45.67 zł",
-            "dueDate": "2025-03-01"
+            "amount": "Wszystko opłacone",
+            "dueDate": "najbliższa faktura za 15 dni"
           }
         },
         {
+          "name": "perform_invoice_payment",
+          "description": ". The invoice payment may be placed via this page.",
+          "screen": "wszystkooplacone",
+          "results": {
+            "amount": "Wszystko opłacone",
+            "dueDate": "najbliższa faktura za 15 dni"
+          }
+        },
+        {
+          "name": "get_account_info",
+          "description": ". This is a page with account number for payment.",
+          "screen": "danedoprzelewu",
+          "results": {}
+        },        
+        {
           "name": "set_services",
           "description": "you may or may not set service depending on received allowed modification methods",
-          "results": [
-            {
-              "service_name": "roaming",
-              "screen": "p0setroaming",
-              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
-              "status" : "status changed successfully"
-            },
-            {
-              "service_name": "buy_data_package",
-              "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
-              "status" : "data package purchased successfully"
-            }          
-          ]
+          "results": {
+            "services": [
+              {
+                "service_name": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
+                "activation_cost": "free",
+                "modification_method": "",
+                "status" : "status changed successfully"
+              },
+              {
+                "service_name": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
+                "activation_cost": "12 zł",
+                "modification_method": "you have opened app form but user must confirm purchase action in app form explicitly",
+                "status" : "status changed successfully"
+              },              {
+                "service_name": "buy_data_package",
+                "screen": "p0buydatapackage",
+                "modification_method": "you have opened app form but user must purchase action in this app form explicitly",
+                "status" : "data package selection form was opened successfully"
+              }          
+            ]
+          }
         },        
         {
           "name": "get_services_info",
           "description": "Get user services info",
-          "screen": "p0servicesinfo",
           "results": {
             "services": [
               {
-                "serviceName": "Fiber Internet",
-                "status": "Active",
-                "dataRate": "100Gbit/s",
-                "renewalDate": "2025-11-01"
-              },
-              {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "5GB/10GB",
-                "renewalDate": "2025-11-01"
+                "dataUsage": "10.51GB/13GB",
+                "renewalDate": "2025-03-13"
               },
               {
-                "serviceName": "Voice Plan",
+                "serviceName": "Voice Limit",
                 "status": "Active",
-                "minutesUsed": "200/300",
-                "renewalDate": "2025-11-01"
+                "minutesUsed": "unlimited",
+                "renewalDate": "2025-03-13"
               },
               {
-                "serviceName": "SMS Plan",
+                "serviceName": "SMS Limit",
                 "status": "Active",
-                "smsUsed": "50/100",
-                "renewalDate": "2025-11-01"
+                "smsUsed": "unlimited",
+                "renewalDate": "2025-03-13"
               },
               {
-                "serviceName": "Roaming",
+                "serviceName": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
+                "status": "Inactive"
+              },
+               {
+                "serviceName": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
                 "status": "Inactive"
               }
             ]
@@ -214,23 +301,23 @@
           "results": {
             "paymentHistory": [
               {
-                "paymentDate": "2025-02-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-02-17",
+                "amount": "19,98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2025-01-02",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-01-19",
+                "amount": "19,98 zł",
                 "method": "Credit Card"
               },
               {
-                "paymentDate": "2024-12-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-12-17",
+                "amount": "19.98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2024-01-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-01-20",
+                "amount": "19.98 zł",
                 "method": "Wire Transfer"
               }
             ]
@@ -238,15 +325,18 @@
         },
         {
           "name": "get_contract_info",
-          "description": "Get user contract details",
+          "description": "Get user contract details, keep planType value in English",
+          "screen": "uslszczegolymalogb",
           "results": {
             "contract": {
-              "contractId": "67890",
-              "planType": "LovE Plan",
-              "startDate": "2023-10-01",
-              "endDate": "2024-10-01",
-              "monthlyCost": "50.00 zł",
-              "status": "Active"
+              "contractId": "67891",
+              "serviceName": "contract",
+              "planType": "Plan 'mobile'",
+              "startDate": "2019-7-01",
+              "endDate": "N/A",
+              "monthlyCost": "19.98 zł",
+              "status": "Active",
+              "screenWhenOn": "uslszczegolymalogb"
             }
           }
         }
@@ -266,64 +356,104 @@
           "results": ""
         },
         {
-          "name": "get_balance_info",
-          "description": ". This is user current account balance.",
-          "screen": "p0getbalance",
+          "name": "conversation_closer",
+          "description": "conversation was ended",
+          "screen": "",
+          "results": {}
+        },
+        {
+          "name": "main",
+          "description": "nothing here",
+          "screen": "dashboardkomfvduzogb",
+          "results": {}
+        },
+        {
+          "name": "get_invoice_due_info",
+          "description": ". This is user current invoice to be payed.",
+          "screen": "platnoscikom",
           "results": {
-            "balance": "45.67 zł",
-            "dueDate": "2025-03-01"
+            "amount": "19.98 zł",
+            "dueDate": "2025-02-28"
           }
         },
         {
+          "name": "perform_invoice_payment",
+          "description": ". The invoice payment may be placed via this page.",
+          "screen": "podsumowaniekom",
+          "results": {
+            "amount": "19.98 zł",
+            "dueDate": "2025-02-28"
+          }
+        },
+        {
+          "name": "get_account_info",
+          "description": ". This is a page with account number for payment.",
+          "screen": "danedoprzelewu",
+          "results": {}
+        },        
+        {
           "name": "set_services",
           "description": "you may or may not set service depending on received allowed modification methods",
-          "results": [
-            {
-              "service_name": "roaming",
-              "screen": "p0setroaming",
-              "modification_method": "you may change it autonomously but user must confirm this action explicitly; user must select packet size: 1GB, 5GB or 10GB.",
-              "status" : "status changed successfully"
-            },
-            {
-              "service_name": "buy_data_package",
-              "screen": "p0buydatapackage",
-              "modification_method": "you may perform it autonomously but user must confirm this action explicitly",
-              "status" : "data package purchased successfully"
-            }          
-          ]
+          "results": {
+            "services": [
+              {
+                "service_name": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
+                "activation_cost": "free",
+                "modification_method": "",
+                "status" : "status changed successfully"
+              },
+              {
+                "service_name": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
+                "activation_cost": "12 zł",
+                "modification_method": "you perform this action autonomously",
+                "status" : "service was purchased successfully"
+              },
+              {
+                "service_name": "buy_data_package",
+                "screen": "p0buydatapackage",
+                "modification_method": "you perform this action autonomously",
+                "status" : "data package was purchased successfully"
+              }          
+            ]
+          }
         },        
         {
           "name": "get_services_info",
           "description": "Get user services info",
-          "screen": "p0servicesinfo",
           "results": {
             "services": [
               {
-                "serviceName": "Fiber Internet",
-                "status": "Active",
-                "dataRate": "100Gbit/s",
-                "renewalDate": "2025-11-01"
-              },
-              {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "5GB/10GB",
-                "renewalDate": "2025-11-01"
+                "dataUsage": "0.25GB/10GB",
+                "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "Voice Plan",
+                "serviceName": "Voice Limit",
                 "status": "Active",
-                "minutesUsed": "200/300",
-                "renewalDate": "2025-11-01"
+                "minutesUsed": "unlimited",
+                "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "SMS Plan",
+                "serviceName": "SMS Limit",
                 "status": "Active",
-                "smsUsed": "50/100",
-                "renewalDate": "2025-11-01"
+                "smsUsed": "unlimited",
+                "renewalDate": "2025-03-01"
               },
               {
-                "serviceName": "Roaming",
+                "serviceName": "roaming",
+                "screenWhenOff": "roamingwyl",
+                "screenWhenOn": "roamingwl2025",
+                "status": "Inactive"
+              },
+               {
+                "serviceName": "cybertarcza",
+                "screenWhenOff": "cybertarcza",
+                "screenWhenOn": "cybertarczawl",
                 "status": "Inactive"
               }
             ]
@@ -340,23 +470,23 @@
           "results": {
             "paymentHistory": [
               {
-                "paymentDate": "2025-02-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-02-28",
+                "amount": "19,98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2025-01-02",
-                "amount": "50.00 zł",
+                "paymentDate": "2025-01-28",
+                "amount": "19,98 zł",
                 "method": "Credit Card"
               },
               {
-                "paymentDate": "2024-12-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-12-28",
+                "amount": "19.98 zł",
                 "method": "Wire Transfer"
               },
               {
-                "paymentDate": "2024-01-01",
-                "amount": "50.00 zł",
+                "paymentDate": "2024-01-28",
+                "amount": "19.98 zł",
                 "method": "Wire Transfer"
               }
             ]
@@ -364,15 +494,18 @@
         },
         {
           "name": "get_contract_info",
-          "description": "Get user contract details",
+          "description": "Get user contract details, keep planType value in English",
+          "screen": "uslszczegolyduzogb",
           "results": {
             "contract": {
-              "contractId": "67890",
-              "planType": "LovE Plan",
-              "startDate": "2023-10-01",
-              "endDate": "2024-10-01",
-              "monthlyCost": "50.00 zł",
-              "status": "Active"
+              "contractId": "67892",
+              "serviceName": "contract",
+              "planType": "Plan 'mobile'",
+              "startDate": "2020-10-01",
+              "endDate": "N/A",
+              "monthlyCost": "19.98 zł",
+              "status": "Active",
+              "screenWhenOn": "uslszczegolyduzogb"
             }
           }
         }
