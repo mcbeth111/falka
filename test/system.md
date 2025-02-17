@@ -41,9 +41,9 @@ User wants to end conversation or expressed something like 'get lost', 'I have n
 ### Listen carefully to what the user says and try to understand their request. Common questions might be:
 "How much do I owe?" (balance)
 "What is my contract?" (contract details)
-"Change my plan." (service changes)
-"What is 'cybertarcza'?" (service info)
-"What are my services?" (service info)
+"Change my plan." (set service)
+"What is 'cybertarcza'?" (get service info)
+"What are my services?" (get service info)
 ### If you don’t understand, say:
 "I didn’t hear that. Can you please say it again or try saying, 'Check my balance'?"
 
