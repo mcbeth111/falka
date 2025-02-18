@@ -94,9 +94,9 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsed": "6.25GB",
-                "dataLeft": "3.75GB",
-                "dataLimit": "10GB",
+                "dataUsed": "6.25 GB",
+                "dataLeft": "3.75 GB",
+                "dataLimit": "10 GB",
                 "renewalDate": "2025-03-01"
               },
               {
@@ -245,14 +245,14 @@
                 "screenWhenOff": "cybertarcza",
                 "screenWhenOn": "cybertarczawl",
                 "activation_cost": "12 zł",
-                "modification_method": "you have opened app form but user must confirm purchase action in app form explicitly",
+                "modification_method": "service was activated succesfully",
                 "status" : "status changed successfully"
               },              {
                 "service_name": "buy_data_package",
                 "screen": "p0buydatapackage",
-                "modification_method": "you have opened app form but user must purchase action in this app form explicitly",
+                "modification_method": "data package was purchased succesfully",
                 "status" : "data package selection form was opened successfully"
-              }          
+              }                 
             ]
           }
         },        
@@ -264,9 +264,9 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsed": "10.51GB",
-                "dataLeft": "2.49GB",
-                "dataLimit": "13GB",
+                "dataUsed": "10.51 GB",
+                "dataLeft": "2.49 GB",
+                "dataLimit": "13 GB",
                 "renewalDate": "2025-03-13"
               },
               {
@@ -415,15 +415,15 @@
                 "screenWhenOff": "cybertarcza",
                 "screenWhenOn": "cybertarczawl",
                 "activation_cost": "12 zł",
-                "modification_method": "you perform this action autonomously",
-                "status" : "service was purchased successfully"
-              },
+                "modification_method": "service was activated succesfully",
+                "status" : "status changed successfully"
+              },              
               {
                 "service_name": "buy_data_package",
                 "screen": "p0buydatapackage",
-                "modification_method": "you perform this action autonomously",
-                "status" : "data package was purchased successfully"
-              }          
+                "modification_method": "data package was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              }                 
             ]
           }
         },        
@@ -435,9 +435,9 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsed": "0.25GB",
-                "dataLeft": "12.75GB",
-                "dataLimit": "13GB",
+                "dataUsed": "0.25 GB",
+                "dataLeft": "12.75 GB",
+                "dataLimit": "13 GB",
                 "renewalDate": "2025-03-01"
               },
               {
