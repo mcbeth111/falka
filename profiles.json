@@ -69,12 +69,12 @@
                 "screenWhenOff": "cybertarcza",
                 "screenWhenOn": "cybertarczawl",
                 "activation_cost": "12 zł",
-                "modification_method": "you have opened app form but user must confirm purchase action in app form explicitly",
+                "modification_method": "service was activated succesfully",
                 "status" : "status changed successfully"
               },              {
                 "service_name": "buy_data_package",
                 "screen": "p0buydatapackage",
-                "modification_method": "you have opened app form but user must purchase action in this app form explicitly",
+                "modification_method": "data package was purchased succesfully",
                 "status" : "data package selection form was opened successfully"
               }          
             ]
