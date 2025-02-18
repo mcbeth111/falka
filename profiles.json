@@ -39,9 +39,9 @@
           "description": ". The invoice payment may be placed via this page.",
           "screen": "podsumowanielove",
           "results": {
+            "totalAmount": "57.47 zł",
             "amount": "54.98 zł",
             "transactionFee": "2.49 zł",
-            "totalAmount": "57.47 zł",
             "dueDate": "2025-02-28"
           }
         },
