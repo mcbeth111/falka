@@ -36,7 +36,7 @@
             },
             {
               "name": "set_services",
-              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom. You may change it after user had confirmed this action explicitly.; available data package sizes: 1GB, 5GB or 10GB.",
+              "description": "Request new service or modify existing service like fiber, data, roaming and other telecom. You may change it after user had confirmed this action explicitly TWICE. Available data package sizes: 1GB, 5GB or 10GB.",
               "parameters": "{}"
             },
             {
