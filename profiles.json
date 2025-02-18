@@ -94,7 +94,9 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "6.25GB/10GB",
+                "dataUsed": "6.25GB",
+                "dataLeft": "3.75GB",
+                "dataLimit": "10GB",
                 "renewalDate": "2025-03-01"
               },
               {
@@ -262,7 +264,9 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "10.51GB/13GB",
+                "dataUsed": "10.51GB",
+                "dataLeft": "2.49GB",
+                "dataLimit": "13GB",
                 "renewalDate": "2025-03-13"
               },
               {
@@ -431,7 +435,9 @@
               {
                 "serviceName": "Mobile Internet",
                 "status": "Active",
-                "dataUsage": "0.25GB/10GB",
+                "dataUsed": "0.25GB",
+                "dataLeft": "12.75GB",
+                "dataLimit": "13GB",
                 "renewalDate": "2025-03-01"
               },
               {
