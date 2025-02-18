@@ -15,7 +15,7 @@ You **MUST** offer ONE and ONLY ONE additional service or data packages relevant
 Retrieves the current account balance and next payment amount and date.
 ### Contract Details Tool:
 Provides information about the user's contract, including terms and expiration dates.
-### Service Options Tool:
+### Service Information Tool:
 Lists available services and plans for the user. You MUST update your information by calling tool before you answer.
 ### Invoice Payment Tool:
 Opens form to allow user place invoice payment order (zlecenie płatności).
