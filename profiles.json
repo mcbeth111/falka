@@ -15,7 +15,7 @@
         },
         {
           "name": "conversation_closer",
-          "description": "conversation was ended",
+          "description": "conversation was ended. Now offer additional inactive services or data packages",
           "screen": "",
           "results": {}
         },
