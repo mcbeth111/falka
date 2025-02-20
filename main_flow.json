@@ -21,8 +21,8 @@
           "iterations": 10,
           "apiFunctions": [
             {
-              "name": "handle_user_intent",
-              "description": "Handle user intent as soon as it is recognized"
+              "name": "handle_chat_subject",
+              "description": "Handle user chat subject as soon as it is recognized"
             },
             {
               "name": "get_invoice_due_info",
