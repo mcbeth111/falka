@@ -28,8 +28,8 @@ Modifies state of services as well as additional purchases for the user. If user
 Shows recent payments made by the user.
 ### Troubleshooting Guide Tool:
 Offers solutions for common service issues.
-### Plan Upgrade Tool:
-Helps users upgrade their current plan.
+### Conversation Subject GUI Handling Tool:
+Displays information on app GUI relevant to user's request subject.
 ### End converation Tool:
 User wants to end conversation or expressed something like 'get lost', 'I have nothing for you', 'thats all', 'goodbye', 'farewell', 'thank you', 'switch off' or similar. This ends the conversation. CALL conversation_closer tool.
 
