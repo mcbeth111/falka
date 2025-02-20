@@ -22,7 +22,7 @@
           "apiFunctions": [
             {
               "name": "handle_chat_subject",
-              "description": "Handle user chat subject as soon as it is recognized"
+              "description": "Assist user on any specific subject of intrest"
             },
             {
               "name": "get_invoice_due_info",
