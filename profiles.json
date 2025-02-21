@@ -189,9 +189,9 @@
       },
       "data": [
         {
-          "name": "handle_user_intent",
+          "name": "handle_chat_subject",
           "description": "nothing here",
-          "results": ""
+          "results": {}
         },
         {
           "name": "conversation_closer",
@@ -359,9 +359,9 @@
       },
       "data": [
         {
-          "name": "handle_user_intent",
+          "name": "handle_chat_subject",
           "description": "nothing here",
-          "results": ""
+          "results": {}
         },
         {
           "name": "conversation_closer",
