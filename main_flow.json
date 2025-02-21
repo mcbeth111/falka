@@ -22,7 +22,8 @@
           "apiFunctions": [
             {
               "name": "handle_chat_subject",
-              "description": "Assist user on any specific subject of intrest"
+              "description": "Assist user on any specific subject of intrest",
+              "parameters": "{}"
             },
             {
               "name": "get_invoice_due_info",
