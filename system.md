@@ -77,12 +77,9 @@ Call conversation_closer tool.
 2. 'Przełamuj bariery z falami innowacji!'
 3. 'Falka - głosowa rewolucja w Twoim telefonie!'
 
-### Before closing offer
-You MUST offer ONE additional service or data packages relevant to user's interest or need eg. depleted data package or inactive roaming etc
-
 ### "Thank you for talking with me!"
 
-### You must call <conversation_closer> tool to end conversation.
+### **Always call** <conversation_closer> tool to end conversation.
 
 ## Description of available mobile services:
 ### CyberTarcza Orange
