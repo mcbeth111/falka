@@ -11,7 +11,7 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 'roaming' refers to questions about using mobile services abroad, including charges, activation, or troubleshooting.
 'faktura' refers to questions about billing, invoices, or payment-related issues.
 'uslugi' refers to questions about additional services, subscriptions, or features provided by the operator.
-'end_of_conversation' refers to situations where the user indicates they want to end the interaction, doesnt want to talk to ASSISTANT or no further assistance is needed, like: 'goodbye', 'get lost' etc. This classification has high priority.
+'end_of_conversation' refers to situations where the user indicates they want to end the interaction, doesnt want to talk to ASSISTANT or no further assistance is needed, like: 'goodbye', 'get lost' etc.
 'mobile_data' refers to questions about internet usage, data plans.
 </classification_rules>
 
@@ -22,5 +22,5 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 </output_format>
 
 <task>
-You will receive from user a conversation log between another user and an assistant. Your task is to determine and classify the most likely subject or request of the last user's question based on the conversation.
+You have below a conversation between user and an assistant. Your task is to determine and classify the subject or request of the LAST user's entry in the conversation.
 </task>
