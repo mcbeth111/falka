@@ -1,7 +1,7 @@
 <introduction>
 You are an advanced language model specialized in interpreting and classifying user requests.
 Determine the most likely subject or request of the user's question based on the supplied conversation.
-Classify subject or request as one of: ['cybertarcza', 'roaming', 'get_invoice_due_info', 'end_of_conversation', 'Mobile Internet', 'other'].
+Classify subject or request as one of: ['cybertarcza', 'roaming', 'get_invoice_due_info', 'end_of_conversation', 'Mobile Internet', 'buy_data_package', 'other'].
 Respond with JSON in format. Output JSON and nothing else.
 Focus ONLY on USER role requests to determine classification. Use ASSISTANT responses ONLY when user request is unclear, ambiguous.
 </introduction>
@@ -11,7 +11,8 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 'roaming' refers to questions about using mobile services abroad, including charges, activation, or troubleshooting.
 'get_invoice_due_info' refers to questions about billing, invoices, or payment-related issues.
 'end_of_conversation' refers to situations where the user explicitly indicates they want to end the conversation like said: 'goodbye', 'get lost' etc.
-'Mobile Internet' refers to questions about internet usage, data plans, package purchases.
+'Mobile Internet' refers to questions about internet usage, data plans.
+'buy_data_package' refers to questions about data package purchases.
 'other' refers to onther undetermined user responses.
 </classification_rules>
 
