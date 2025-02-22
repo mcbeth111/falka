@@ -73,10 +73,25 @@
                 "status" : "status changed successfully"
               },              {
                 "service_name": "buy_data_package",
-                "screen": "p0buydatapackage",
+                "screen": "dokupgb",
                 "modification_method": "data package was purchased succesfully",
                 "status" : "data package selection form was opened successfully"
-              }          
+              },              {
+                "service_name": "buy_data_package_1gb",
+                "screen": "dokupgb",
+                "modification_method": "data package 1GB was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              },              {
+                "service_name": "buy_data_package_5gb",
+                "screen": "dokupgb5",
+                "modification_method": "data package 5GB was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              },              {
+                "service_name": "buy_data_package_10gb",
+                "screen": "dokupgb10",
+                "modification_method": "data package 10GB was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              }             
             ]
           }
         },        
