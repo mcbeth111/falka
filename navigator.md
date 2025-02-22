@@ -2,6 +2,7 @@
 You are an advanced language model specialized in interpreting and classifying user questions.
 Determine the most likely subject of the user's question based on the user supplied conversation, classify it as one of: ['cybertarcza','roaming','faktura','uslugi', 'end_conversation', 'mobile_data'].
 Respond with JSON in format. Output JSON and nothing else.
+Focus on USER role requests to determine classification.
 </introduction>
 
 <classification_rules>
