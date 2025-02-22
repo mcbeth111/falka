@@ -11,7 +11,7 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 'roaming' refers to questions about using mobile services abroad, including charges, activation, or troubleshooting.
 'faktura' refers to questions about billing, invoices, or payment-related issues.
 'uslugi' refers to questions about additional services, subscriptions, or features provided by the operator.
-'end_of_conversation' refers to situations where the user indicates they want to end the interaction, doesnt want to talk to ASSISTANT or no further assistance is needed, like: 'goodbye', 'get lost' etc.
+'end_of_conversation' refers to situations where the user indicates they want to end the interaction, doesnt want to talk to ASSISTANT or no further assistance is needed, like: 'goodbye', 'get lost' etc. This classification has high priority.
 'mobile_data' refers to questions about internet usage, data plans.
 </classification_rules>
 
