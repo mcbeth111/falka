@@ -12,6 +12,7 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 'get_invoice_due_info' refers to questions about billing, invoices, or payment-related issues.
 'end_of_conversation' refers to situations where the user indicates they want to end the interaction, doesnt want to talk to ASSISTANT or no further assistance is needed, like: 'goodbye', 'get lost' etc.
 'Mobile Internet' refers to questions about internet usage, data plans.
+'buy_data_package' refers to questions about mobile data packages.
 </classification_rules>
 
 <output_format>
