@@ -15,7 +15,7 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 'buy_data_package_1gb' refers to general questions about package purchases as well as 1GB packages.
 'buy_data_package_5gb' refers to questions about 5GB data package purchases.
 'buy_data_package_10gb' refers to questions about 10GB data package purchases.
-'other' refers to onther undetermined user responses.
+'other' refers to other, undetermined user requests.
 </classification_rules>
 
 <output_format>
