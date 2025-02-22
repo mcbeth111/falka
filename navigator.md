@@ -10,7 +10,7 @@ Focus ONLY on USER role requests to determine classification. Use ASSISTANT resp
 'cybertarcza' refers to questions related to cybersecurity, protection against online threats, or services aimed at safeguarding users from malicious activities.
 'roaming' refers to questions about using mobile services abroad, including charges, activation, or troubleshooting.
 'get_invoice_due_info' refers to questions about billing, invoices, or payment-related issues.
-'end_of_conversation' refers to situations where the user explicitly indicates they want to end the conversation like said: 'goodbye', 'get lost' etc.
+'end_of_conversation' refers to situations where the user **explicitly** indicates they want to finish the conversation like said: 'goodbye', 'get lost' etc.
 'Mobile Internet' refers to questions about internet usage, data plans.
 'buy_data_package_1gb' refers to general questions about package purchases as well as 1GB packages.
 'buy_data_package_5gb' refers to questions about 5GB data package purchases.
