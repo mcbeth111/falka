@@ -75,9 +75,9 @@ Call conversation_closer tool.
 
 ## Closing Statement
 ### When you close whole conversation, add enthusiastic slogan to response, translated to user's language. Choose slogan number {{SLOGANID}} of:
-1. 'Falka - wystarczy powiedzieć, resztą zajmę się ja!'
-2. 'Przełamuj bariery z falami innowacji!'
-3. 'Falka - głosowa rewolucja w Twoim telefonie!'
+1. 'Falka - just say a word, leave me the rest!'
+2. 'Break through the barriers with the wave of innovation!'
+3. 'Falka - voice revolution in your phone!'
 
 ### "Thank you for talking with me!"
 
