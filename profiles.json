@@ -73,6 +73,12 @@
                 "status" : "status changed successfully"
               },              
               {
+                "service_name": "buy_data_package",
+                "screen": "dokupgb",
+                "modification_method": "data package was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              },    
+              {
                 "service_name": "data_package_range",
                 "screen": "dokupgb",
                 "modification_method": "data package was purchased succesfully",
@@ -270,6 +276,12 @@
                 "status" : "status changed successfully"
               },              
               {
+                "service_name": "buy_data_package",
+                "screen": "dokupgb",
+                "modification_method": "data package was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              },    
+              {
                 "service_name": "data_package_range",
                 "screen": "dokupgb",
                 "modification_method": "data package was purchased succesfully",
@@ -466,6 +478,12 @@
                 "modification_method": "service was activated succesfully",
                 "status" : "status changed successfully"
               },              
+              {
+                "service_name": "buy_data_package",
+                "screen": "dokupgb",
+                "modification_method": "data package was purchased succesfully",
+                "status" : "data package selection form was opened successfully"
+              },    
               {
                 "service_name": "data_package_range",
                 "screen": "dokupgb",
