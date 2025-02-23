@@ -14,7 +14,7 @@ DO NOT end conversation, only because user canceled order or said 'no'.
 'cybertarcza' refers to questions related to cybersecurity, protection against online threats, or services aimed at safeguarding users from malicious activities.
 'roaming' refers to questions about using mobile services abroad, including charges, activation, or troubleshooting.
 'get_invoice_due_info' refers to questions about billing, invoices, or payment-related issues.
-'end_of_conversation' refers **ONLY** to situations where the user **explicitly** indicates they want to finish the conversation saying 'goodbye', 'get lost'.
+'end_of_conversation' refers **ONLY** to situations where the user **explicitly** indicates they want to exit the conversation saying 'goodbye', 'get lost'. Don't confuse it with simple 'no' or 'thank you'.
 'Mobile Internet' refers to questions about internet usage, data plans.
 'buy_data_package_1gb' refers to general questions about package purchases as well as 1GB packages.
 'buy_data_package_5gb' refers to questions about 5GB data package purchases.
