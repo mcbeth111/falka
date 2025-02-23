@@ -17,7 +17,7 @@ DO NOT end conversation, only because user canceled order or said 'no'.
 'no_thank_you' refers to situation where user did not accept the proposistion or did not commit action.
 'end_of_conversation' refers **ONLY** to situations where the user **explicitly** indicates they want to exit the conversation saying 'goodbye', 'get lost'. Don't confuse it with simple 'no' or 'thank you'.
 'Mobile Internet' refers to questions about internet usage, data plans.
-'data_package_range' refers to general questions about data package available range.
+'data_package_range' refers to questions about what data packages are available.
 'buy_data_package_1gb' refers to questions about 1GB data package purchases.
 'buy_data_package_5gb' refers to questions about 5GB data package purchases.
 'buy_data_package_10gb' refers to questions about 10GB data package purchases.
