@@ -8,6 +8,7 @@ Classify subject or request as one of: ['cybertarcza', 'roaming', 'get_invoice_d
 Respond with JSON in format. Output JSON with classification and nothing else.
 Focus ONLY on USER role requests to determine classification. Use ASSISTANT responses ONLY when user request is unclear, ambiguous.
 DO NOT end conversation, only because user canceled order or said 'no'.
+If you are about to classify user's request as 'other', be sure you have reviewed last aassistant message for context.
 </genaral_rules>
 
 <classification_rules>
@@ -21,7 +22,7 @@ DO NOT end conversation, only because user canceled order or said 'no'.
 'buy_data_package_1gb' refers to questions about 1GB data package purchases.
 'buy_data_package_5gb' refers to questions about 5GB data package purchases.
 'buy_data_package_10gb' refers to questions about 10GB data package purchases.
-'other' refers to other, anu other user requests.
+'other' refers to other, any other user requests.
 </classification_rules>
 
 <output_format>
