@@ -299,18 +299,24 @@
                 "dataUsed": "10.51 GB",
                 "dataLeft": "2.49 GB",
                 "dataLimit": "13 GB",
+                "screenWhenOn": "uslszczegolymalogb",
+                "screenWhenOff": "uslszczegolymalogb",
                 "renewalDate": "2025-03-13"
               },
               {
                 "serviceName": "Voice",
                 "status": "Active",
                 "minutesUsed": "unlimited",
+                "screenWhenOn": "uslszczegolymalogb",
+                "screenWhenOff": "uslszczegolymalogb",
                 "renewalDate": "2025-03-13"
               },
               {
                 "serviceName": "SMS",
                 "status": "Active",
                 "smsUsed": "unlimited",
+                "screenWhenOn": "uslszczegolymalogb",
+                "screenWhenOff": "uslszczegolymalogb",
                 "renewalDate": "2025-03-13"
               },
               {
@@ -490,18 +496,24 @@
                 "dataUsed": "0.25 GB",
                 "dataLeft": "12.75 GB",
                 "dataLimit": "13 GB",
+                "screenWhenOn": "uslszczegolyduzogb",
+                "screenWhenOff": "uslszczegolyduzogb",
                 "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "Voice",
                 "status": "Active",
                 "minutesUsed": "unlimited",
+                "screenWhenOn": "uslszczegolyduzogb",
+                "screenWhenOff": "uslszczegolyduzogb",
                 "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "SMS",
                 "status": "Active",
                 "smsUsed": "unlimited",
+                "screenWhenOn": "uslszczegolyduzogb",
+                "screenWhenOff": "uslszczegolyduzogb",
                 "renewalDate": "2025-03-01"
               },
               {
