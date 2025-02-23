@@ -15,8 +15,8 @@ If you are about to classify user's request as 'other', be sure you have reviewe
 'cybertarcza' refers to questions related to cybersecurity, protection against online threats, or services aimed at safeguarding users from malicious activities.
 'roaming' refers to questions about using mobile services abroad, including charges, activation, or troubleshooting.
 'get_invoice_due_info' refers to questions about billing, invoices, or payment-related issues.
-'no_thank_you' refers to situation where user did not accept the proposistion or did not commit action.
-'end_of_conversation' refers **ONLY** to situations where the user **explicitly** indicates they want to exit the conversation saying 'goodbye', 'get lost'. Don't confuse it with simple 'no' or 'thank you'.
+'no_thank_you' refers to situation where user did not accept the specific proposistion or did not commit action.
+'end_of_conversation' refers **ONLY** to situations where the user **explicitly** indicates they want to exit the conversation saying 'goodbye', 'get lost'. Also refers to user response 'thank you' but **only to general help offer** from assistant.
 'Mobile Internet' refers to questions about internet usage, data plans.
 'data_package_range' refers to questions about what data packages are available.
 'buy_data_package_1gb' refers to questions about 1GB data package purchases.
