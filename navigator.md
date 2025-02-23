@@ -31,5 +31,5 @@ DO NOT end conversation, only because user canceled order or said 'no'.
 </output_format>
 
 <task>
-You have below a conversation between user and an assistant. Your task is to determine and classify the subject or request of the LAST user's entry in the conversation. Stricttly follow output format.
+You have below a conversation between user and an assistant. Your task is to determine and classify the subject or request of the LAST user's entry in the conversation. DO NOT respond to user, only output question classification category. Strictly follow output format.
 </task>
