@@ -8,7 +8,7 @@
   "TokenBudget": 100000,
   "enabled": 1,
   "SystemPromptText": "Load from system.md",
-  "UserPromptText": "Cześć ! Jak możesz mi pomóc?",
+  "UserPromptText": "czesc",
   "flows": [
     {
       "flowName": "FALKA",
