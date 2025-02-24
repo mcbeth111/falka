@@ -114,7 +114,9 @@
                 "serviceName": "Fiber Internet",
                 "status": "Active",
                 "dataRate": "100Mbit/s",
-                "renewalDate": "2025-11-01"
+                "screenWhenOn": "uslszczegolylove",
+                "screenWhenOff": "uslszczegolylove",
+               "renewalDate": "2025-11-01"
               },
               {
                 "serviceName": "Mobile Internet",
@@ -130,12 +132,16 @@
                 "serviceName": "Voice",
                 "status": "Active",
                 "minutesUsed": "unlimited",
+                "screenWhenOn": "uslszczegolylove",
+                "screenWhenOff": "uslszczegolylove",
                 "renewalDate": "2025-03-01"
               },
               {
                 "serviceName": "SMS",
                 "status": "Active",
                 "smsUsed": "unlimited",
+                "screenWhenOn": "uslszczegolylove",
+                "screenWhenOff": "uslszczegolylove",
                 "renewalDate": "2025-03-01"
               },
               {
