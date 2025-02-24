@@ -442,9 +442,7 @@
           "description": ". This is user current invoice to be payed.",
           "screen": "platnoscikom",
           "results": {
-            "totalAmount": "22.47 zł",
             "amount": "19.98 zł",
-            "transactionFee": "2.49 zł",
             "dueDate": "2025-02-28"
           }
         },
@@ -453,7 +451,9 @@
           "description": ". The invoice payment may be placed via this page.",
           "screen": "podsumowaniekom",
           "results": {
+            "totalAmount": "22.47 zł",
             "amount": "19.98 zł",
+            "transactionFee": "2.49 zł",
             "dueDate": "2025-02-28"
           }
         },
