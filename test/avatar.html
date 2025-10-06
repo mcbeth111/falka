@@ -16,8 +16,8 @@
             max-width: 400px;
             aspect-ratio: 1/1;
         }
-        .glow-effect {
-            filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.7)); /* Glowing effect */
+        .orange-glow {
+            filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.7)); /* Glowing effect for orange parts */
         }
         .outer-ring {
             stroke: #f97316;
@@ -27,7 +27,7 @@
         .waveform-part {
              fill: #f97316;
              stroke: #f97316;
-             transition: all 0.05s ease-out; /* Faster transition for responsive feel */
+             transition: all 0.05s ease-out;
         }
         .waveform-path {
             fill: none;
@@ -35,56 +35,49 @@
             stroke-linecap: round;
         }
         .star {
-            fill: #f97316;
+            fill: #FFFFFF; /* Changed to white */
             transform-origin: 50px 50px;
             transition: transform 0.05s ease-out;
+            /* Added a white glow specifically for the stars */
+            filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9));
         }
     </style>
 </head>
 <body class="bg-black flex flex-col items-center justify-center min-h-screen p-4 text-white">
 
     <div class="visualizer-container">
-        <svg id="speech-visualizer" class="glow-effect" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <svg id="speech-visualizer" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
             
             <defs>
                 <path id="star-shape" d="M50 0 L65 35 L100 50 L65 65 L50 100 L35 65 L0 50 L35 35 Z" />
             </defs>
             
-            <circle class="outer-ring" cx="150" cy="150" r="140"/>
-
-            <g class="stars">
-                 <!-- FIX: Stars moved closer to center with varied sizes and positions for an organic feel -->
-                 <g class="star-group" transform="translate(199, 43) scale(0.3)">
-                    <use href="#star-shape" class="star"/>
-                 </g>
-                 <g class="star-group" transform="translate(73, 46) scale(0.25)">
-                    <use href="#star-shape" class="star"/>
-                 </g>
-                 <g class="star-group" transform="translate(24, 145) scale(0.29)">
-                    <use href="#star-shape" class="star"/>
-                 </g>
-                 <g class="star-group" transform="translate(73, 229) scale(0.26)">
-                    <use href="#star-shape" class="star"/>
-                 </g>
-                 <g class="star-group" transform="translate(198, 226) scale(0.31)">
-                    <use href="#star-shape" class="star"/>
-                 </g>
-                 <g class="star-group" transform="translate(250, 148) scale(0.24)">
-                    <use href="#star-shape" class="star"/>
-                 </g>
+            <g class="orange-glow">
+                <circle class="outer-ring" cx="150" cy="150" r="140"/>
+                <g class="waveform">
+                    <circle class="waveform-part" cx="70" cy="150" r="5" />
+                    <rect class="waveform-part bar" id="bar1" x="90" y="125" width="8" height="50" rx="4"/>
+                    <rect class="waveform-part bar" id="bar2" x="105" y="110" width="8" height="80" rx="4"/>
+                    <rect class="waveform-part bar" id="bar3" x="120" y="90" width="8" height="120" rx="4"/>
+                    <rect class="waveform-part bar" id="bar4" x="135" y="70" width="8" height="160" rx="4"/>
+                    <rect class="waveform-part bar" id="bar5" x="150" y="100" width="8" height="100" rx="4"/>
+                    <rect class="waveform-part bar" id="bar6" x="165" y="115" width="8" height="70" rx="4"/>
+                    <rect class="waveform-part bar" id="bar7" x="180" y="130" width="8" height="40" rx="4"/>
+                    <path class="waveform-part waveform-path" d="M 200 120 C 210 135, 210 165, 200 180" />
+                    <path class="waveform-part waveform-path" d="M 215 110 C 230 135, 230 165, 215 190" />
+                </g>
             </g>
 
-            <g class="waveform">
-                <circle class="waveform-part" cx="70" cy="150" r="5" />
-                <rect class="waveform-part bar" id="bar1" x="90" y="125" width="8" height="50" rx="4"/>
-                <rect class="waveform-part bar" id="bar2" x="105" y="110" width="8" height="80" rx="4"/>
-                <rect class="waveform-part bar" id="bar3" x="120" y="90" width="8" height="120" rx="4"/>
-                <rect class="waveform-part bar" id="bar4" x="135" y="70" width="8" height="160" rx="4"/>
-                <rect class="waveform-part bar" id="bar5" x="150" y="100" width="8" height="100" rx="4"/>
-                <rect class="waveform-part bar" id="bar6" x="165" y="115" width="8" height="70" rx="4"/>
-                <rect class="waveform-part bar" id="bar7" x="180" y="130" width="8" height="40" rx="4"/>
-                <path class="waveform-part waveform-path" d="M 200 120 C 210 135, 210 165, 200 180" />
-                <path class="waveform-part waveform-path" d="M 215 110 C 230 135, 230 165, 215 190" />
+            <g class="stars">
+                 <g class="star-group" transform="translate(195, 45) scale(0.4)">
+                    <use href="#star-shape" class="star"/>
+                 </g>
+                 <g class="star-group" transform="translate(228, 68) scale(0.3)">
+                    <use href="#star-shape" class="star"/>
+                 </g>
+                 <g class="star-group" transform="translate(180, 80) scale(0.25)">
+                    <use href="#star-shape" class="star"/>
+                 </g>
             </g>
         </svg>
     </div>
@@ -103,7 +96,7 @@
         const message = document.getElementById('message');
         const bars = document.querySelectorAll('.bar');
         const stars = document.querySelectorAll('.star');
-        const visualizer = document.getElementById('speech-visualizer');
+        const orangeGlow = document.querySelector('.orange-glow');
 
         let audioContext;
         let analyser;
@@ -154,7 +147,7 @@
                 startButton.textContent = 'Listening...';
                 startButton.disabled = true;
                 message.textContent = "Speak into your microphone!";
-                visualizer.style.filter = 'drop-shadow(0 0 15px rgba(249, 115, 22, 0.9))';
+                orangeGlow.style.filter = 'drop-shadow(0 0 15px rgba(249, 115, 22, 0.9))';
 
                 const draw = () => {
                     animationFrameId = requestAnimationFrame(draw);
@@ -186,9 +179,12 @@
                 draw();
 
             } catch (err) {
+                // FIX: Added curly braces to correctly wrap the catch block
                 console.error('Error accessing microphone:', err);
                 message.textContent = 'Could not access microphone. Please check permissions and try again.';
-                if (animationFrameId) cancelAnimationFrame(animationFrameId);
+                if (animationFrameId) {
+                    cancelAnimationFrame(animationFrameId);
+                }
                 idleAnimation();
             }
         }
