@@ -101,6 +101,7 @@
         let audioContext;
         let analyser;
         let source;
+        let gainNode;
         let animationFrameId;
 
         const initialHeights = Array.from(bars).map(bar => parseFloat(bar.getAttribute('height')));
@@ -138,8 +139,16 @@
                 analyser = audioContext.createAnalyser();
                 analyser.fftSize = 256;
                 analyser.smoothingTimeConstant = 0.8;
+                
                 source = audioContext.createMediaStreamSource(stream);
-                source.connect(analyser);
+                
+                // --- NEW: GainNode for amplification ---
+                gainNode = audioContext.createGain();
+                gainNode.gain.value = 2.5; // Amplify the signal by 2.5x
+
+                // Connect the audio graph: source -> gain -> analyser
+                source.connect(gainNode);
+                gainNode.connect(analyser);
 
                 const bufferLength = analyser.frequencyBinCount;
                 const dataArray = new Uint8Array(bufferLength);
@@ -162,7 +171,9 @@
                         let avg = slice.reduce((a, b) => a + b, 0) / slice.length;
                         overallAvg += avg;
                         
-                        const height = Math.pow(avg / 255, 2) * 200 + 10;
+                        // --- NEW: Logarithmic-style response curve ---
+                        // An exponent < 1 creates a curve that's more sensitive to lower volumes.
+                        const height = Math.pow(avg / 255, 0.6) * 180 + 10;
                         
                         bar.setAttribute('height', height);
                         bar.setAttribute('y', svgCenterY - height / 2);
@@ -179,7 +190,6 @@
                 draw();
 
             } catch (err) {
-                // FIX: Added curly braces to correctly wrap the catch block
                 console.error('Error accessing microphone:', err);
                 message.textContent = 'Could not access microphone. Please check permissions and try again.';
                 if (animationFrameId) {
