@@ -164,6 +164,9 @@
                     
                     const midPoint = Math.floor(barCount / 2);
                     const step = Math.floor(bufferLength / (midPoint + 4));
+                    
+                    // --- NEW: Get the max initial height to create a shape ratio ---
+                    const maxInitialHeight = Math.max(...initialHeights);
 
                     bars.forEach((bar, i) => {
                         const distanceFromCenter = Math.abs(i - midPoint);
@@ -175,7 +178,12 @@
                         let avg = slice.reduce((a, b) => a + b, 0) / slice.length || 0;
                         overallAvg += avg;
                         
-                        const height = Math.pow(avg / 255, 0.6) * 180 + 10;
+                        // --- UPDATED LOGIC TO ENFORCE DIAMOND SHAPE ---
+                        // Calculate the maximum potential height for this specific bar based on the SVG's design
+                        const maxBarHeight = (initialHeights[i] / maxInitialHeight) * 180;
+                        
+                        // Calculate the height based on audio, scaling it to the bar's maximum potential height
+                        const height = Math.pow(avg / 255, 0.6) * maxBarHeight + 10;
                         
                         bar.setAttribute('height', height);
                         bar.setAttribute('y', svgCenterY - height / 2);
